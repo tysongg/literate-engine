@@ -1,0 +1,6 @@
+# Build Artifacts
+dist/*
+node_modules/
+
+# Editor Configurations
+.vscode/

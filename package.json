@@ -1,0 +1,32 @@
+{
+    "name": "webpack-and-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "webpack serve",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/iamshaunjp/webpack-and-typescript.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/iamshaunjp/webpack-and-typescript/issues"
+    },
+    "homepage": "https://github.com/iamshaunjp/webpack-and-typescript#readme",
+    "devDependencies": {
+        "html-webpack-plugin": "^5.3.1",
+        "ts-loader": "^9.2.3",
+        "typescript": "^4.3.2",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.2",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "dependencies": {
+        "lit": "^2.0.0-rc.2"
+    }
+}
